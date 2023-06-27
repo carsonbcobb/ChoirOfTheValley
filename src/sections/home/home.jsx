@@ -171,7 +171,7 @@ const Home = () => {
 				<div className='footer'>
 					<div className='footer__content'>
 						<img src={footerLogo} />
-						
+
 						<p>Cloviscommunitychoir@gmail.com</p>
 						<p>559-916-8541</p>
 
