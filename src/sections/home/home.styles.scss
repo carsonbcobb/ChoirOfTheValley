@@ -18,6 +18,8 @@
 	padding-left: 50px;
 	margin-top: -75px;
 	text-align: justify;
+
+	
 }
 
 .hero__text--title {
@@ -101,7 +103,7 @@
 
 	.hero__text--title {
 		font-weight: bold;
-		font-size: 42px;
+		font-size: 36px;
 		line-height: 111%;
 		letter-spacing: 0.05em;
 		color: #ffffff;
@@ -127,6 +129,7 @@
 		margin-bottom: 50px;
 
 		p {
+			padding: 0 20px;
 			margin: 10px 0;
 		}
 	}
