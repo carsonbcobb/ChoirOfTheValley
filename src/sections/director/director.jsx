@@ -56,7 +56,7 @@ const Director = () => {
 							choirs for numerous civic events, and conferences.
 						</p>
 						<p>
-							In addition to his work with the Clovis Community Choir, Ed,
+							In addition to his work with the Community Choir of the Valley, Ed,
 							currently, teaches music at a private school in Fresno.
 						</p>
 					</div>

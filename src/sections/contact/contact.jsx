@@ -34,9 +34,9 @@ const Contact = () => (
 					<img src={underTitle} />
 					<h4>Would you like to sing with us?</h4>
 					<p className='desktop-text'>
-						We are always welcoming new singers to the Clovis Community
+						We are always welcoming new singers to the Community Choir
 						<br />
-						Choir! And, remember…there are no auditions. Our members have
+						of the Valley! And, remember…there are no auditions. Our members have
 						<br />
 						varying levels of musical experience, so don’t worry if you’ve
 						<br />
@@ -46,7 +46,7 @@ const Contact = () => (
 						rehearsal. It’s that easy!
 					</p>
 					<p className='mobile-text'>
-						We are always welcoming new singers to the Clovis Community Choir!
+						We are always welcoming new singers to the Community Choir of the Valley!
 						And, remember…there are no auditions. Our members have varying
 						levels of musical experience, so don’t worry if you’ve never sung in
 						a group before, or it’s been a long time. We’ll be there to help

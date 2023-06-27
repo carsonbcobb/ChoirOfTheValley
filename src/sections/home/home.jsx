@@ -34,7 +34,7 @@ const Home = () => {
 								<img src={hero} />
 							</div>
 							<p className='hero__text--body'>
-								The Clovis Community Choir is here to provide an opportunity for
+								The Community Choir of the Valley is here to provide an opportunity for
 								singers of all experience levels an encouraging and welcoming
 								environment in which to sing a variety of quality choral
 								music. We also strive to present enriching and inspiring concerts
@@ -74,7 +74,7 @@ const Home = () => {
 						
 							<p>
 								A membership of 90 plus voices, diverse experience levels and
-								one love for music and the community. Clovis Community Choir, is
+								one love for music and the community. Community Choir of the Valley, is
 								a non-auditioned choral group established in 2014 in Clovis
 								California. Our singers range from those who are highly skilled
 								to those who have never sung in a choir before, but we all have
@@ -105,7 +105,7 @@ const Home = () => {
 										width='560'
 										height='415'
 										src='https://www.youtube.com/embed/Cf_dXxRe7E0?autoplay=1'
-										title='Clovis Community Choir'
+										title='Community Choir of the Valley'
 										frameborder='0'
 										allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
 										allowfullscreen

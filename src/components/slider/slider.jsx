@@ -63,7 +63,7 @@ export default class SimpleSlider extends Component {
 								<img className='slide--image' src={testimonialOne} />
 								<h4 className='slide--name'>Michelle C.</h4>
 								<p className='slide--text'>
-									“I cannot express how much the Clovis Community Choir means to
+									“I cannot express how much the Community Choir of the Valley means to
 									me. To say that it changed my life is an understatement for so
 									many reasons. Having no idea what to expect, I can tell you
 									that from the first practice, I was blown away at the talent
@@ -77,7 +77,7 @@ export default class SimpleSlider extends Component {
 								<img className='slide--image' src={testimonialTwo} />
 								<h4 className='slide--name'>Jennifer H.</h4>
 								<p className='slide--text'>
-									“I've been in Clovis Community Choir for about 6 years and
+									“I've been in Community Choir of the Valley for about 6 years and
 									have enjoyed it so very much! The choir is for people who love
 									to sing choral music! I love working on learning my part and
 									when all the parts come together, it's just the best! I enjoy
@@ -106,7 +106,7 @@ export default class SimpleSlider extends Component {
 								<img className='slide--image' src={testimonialSix} />
 								<h4 className='slide--name'>Ron C.</h4>
 								<p className='slide--text'>
-									“Singing in the Clovis Community Choir has been a blessing of
+									“Singing in the Community Choir of the Valley has been a blessing of
 									an experience for me over the years. The music selection is
 									challenging, fun, and encouraging. The variety of songs
 									relating to the season they are sung makes it exciting and
@@ -121,7 +121,7 @@ export default class SimpleSlider extends Component {
 								<img className='slide--image' src={testimonialFour} />
 								<h4 className='slide--name'>Dixie M.</h4>
 								<p className='slide--text'>
-									“Clovis Community Choir provides opportunities for all singers
+									“Community Choir of the Valley provides opportunities for all singers
 									to share their talent and meet like people who enjoy music and
 									socializing. I have been a member of various choruses
 									throughout my life and this one ranks on top of the list.
@@ -138,7 +138,7 @@ export default class SimpleSlider extends Component {
 								<img className='slide--image' src={testimonialFive} />
 								<h4 className='slide--name'>Linda D.</h4>
 								<p className='slide--text'>
-									“Joining Clovis Community Choir means singing great songs
+									“Joining Community Choir of the Valley means singing great songs
 									together with wonderful people. The music is pure joy, so get
 									happy again! Come, sing with us!”
 								</p>
