@@ -23,10 +23,7 @@ const History = () => {
 					</div>
 				</div>
 
-				<div className='about-section__subhead'>
-					<h2>OUR HISTORY</h2>
-					<img src={subhead} />
-				</div>
+			
 
 				<div className='about-section__content'>
 					<div className='about-section__content__image'>
@@ -34,7 +31,7 @@ const History = () => {
 					</div>
 
 					<div className='about-section__content__text'>
-						<h2>
+						<h2 style={{fontSize: 2 + 'rem'}}>
 							“America, I Still Can Hear Your Song” was the first song
 							performed!
 						</h2>

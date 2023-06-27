@@ -17,16 +17,16 @@
 }
 
 .events-header__text {
-	text-align: start !important;
+	text-align: center;
 
 	h1 {
 		font-style: normal;
 		font-weight: 600;
-		font-size: 48px !important;
+		font-size: 42px !important;
 		line-height: 125% !important;
 		/* or 45px */
 		color: #ffffff;
-		text-align: start !important;
+		text-align: center;
 		margin-bottom: 50px;
 	}
 }
@@ -47,6 +47,7 @@
 	padding: 10px 25px;
 	width: fit-content;
 	transition: 0.25s ease-in-out;
+	margin: auto;
 
 	&:hover {
 		transform: scale(0.95);
@@ -89,16 +90,22 @@
 	.events-header__text {
 		text-align: start !important;
 		padding-left: 100px;
+
+		h1 {
+			font-size: 36px !important;
+		}
 	}
 }
 
 @media (max-width: 768px) {
+
 	.events-header {
 		flex-direction: column;
 		padding-top: 100px;
+		padding-bottom: 100px;
 
 		img {
-			max-width: 600px;
+			max-width: 400px;
 		}
 	}
 

@@ -37,7 +37,7 @@ const Home = () => {
 								The Clovis Community Choir is here to provide an opportunity for
 								singers of all experience levels an encouraging and welcoming
 								environment in which to sing a variety of quality choral
-								music.We also strive to present enriching and inspiring concerts
+								music. We also strive to present enriching and inspiring concerts
 								for all ages in the great Clovis / Fresno community
 							</p>
 
@@ -57,8 +57,12 @@ const Home = () => {
 
 			<section id='about'>
 				<div className='about'>
-					<p className='about__subtitle'>about</p>
-					<h2 className='about__title'>About</h2>
+					<p className='about__subtitle'>a love of singing</p>
+					<h2 className='about__title text--title'>	
+								<span className='blue'>A love of singing</span>
+								<br />
+								balanced with a love of community
+						</h2>
 
 					<div className='about__content'>
 						<div className='about__content--image'>
@@ -66,28 +70,9 @@ const Home = () => {
 						</div>
 
 						<div className='about__content--text'>
-							<h3 className='text--title'>
-								<span className='blue'>A love of singing</span>
-								<br />
-								balanced with a love of community
-							</h3>
-							<p className='desktop-text'>
-								A membership of 90 plus voices, diverse experience levels and
-								one
-								<br />
-								love for music and the community. Clovis Community Choir, is a
-								<br />
-								non-auditioned choral group established in 2014 in Clovis
-								California.
-								<br />
-								Our singers range from those who are highly skilled to those who
-								<br />
-								have never sung in a choir before, but we all have these things
-								in
-								<br />
-								common:
-							</p>
-							<p className='mobile-text'>
+					
+						
+							<p>
 								A membership of 90 plus voices, diverse experience levels and
 								one love for music and the community. Clovis Community Choir, is
 								a non-auditioned choral group established in 2014 in Clovis
@@ -108,7 +93,7 @@ const Home = () => {
 
 			<section id='connect'>
 				<div className='connect'>
-					<p className='connect--subtitle'>Connect With</p>
+					<p className='connect--subtitle'>Connect</p>
 					<h2 className='connect--title'>Connect With Us</h2>
 
 					<div className='connect__content'>
@@ -162,15 +147,18 @@ const Home = () => {
 			<section id='join'>
 				<img src={notes} id='notes' />
 				<div className='join'>
-					<p className='join--subhead'>Come join the</p>
+					<p className='join--subhead'>Join the Family</p>
 					<h3 className='join--head'>Come Join the Family</h3>
 
 					<div className='join__text'>
 						<img src={quoteStart} className='quote-start' />
-						<p>
+						<p className="desktop-text">
 							Join over 90 others who’ve discovered the joy of
 							<br />
 							singing together!
+						</p>
+						<p className="mobile-text">
+							Join over 90 others who’ve discovered the joy of singing together!
 						</p>
 						<img className='quote-end' src={quoteEnd} />
 					</div>
@@ -183,8 +171,9 @@ const Home = () => {
 				<div className='footer'>
 					<div className='footer__content'>
 						<img src={footerLogo} />
+
 						<p>Cloviscommunitychoir@gmail.com</p>
-						<p>559-327-2800</p>
+						<p>559-916-8541</p>
 
 						<div className='footer__social'>
 							<a

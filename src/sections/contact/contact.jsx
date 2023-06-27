@@ -94,7 +94,7 @@ const Contact = () => (
 					</p>
 					<br />
 					<div className='contact-button'>
-						<a href='tel:+15593272800' target='_blank'>
+						<a href='tel:+15599168541'target='_blank' >
 							Call Us
 						</a>
 					</div>
@@ -119,11 +119,10 @@ const Contact = () => (
 					<p className='desktop-text'>
 						We’d love to hear from you! You can always reach us through
 						<br />
-						Clovis Community Education, or simply sending an email.
+						simply sending an email.
 					</p>
 					<p className='mobile-text'>
-						We’d love to hear from you! You can always reach us through Clovis
-						Community Education, or simply sending an email.
+						We’d love to hear from you! You can always reach us through simply sending an email.
 					</p>
 					<br />
 

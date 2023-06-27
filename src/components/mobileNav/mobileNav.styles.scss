@@ -25,13 +25,20 @@
 
 #menuToggle a {
 	text-decoration: none;
-	color: #232323;
+	color: white;
+	font-family: 'Cinzel', serif;
 
 	transition: color 0.3s ease;
 }
 
+#about-link-mobile {
+	color: white;
+	font-family: 'Cinzel', serif;
+	
+}
+
 #menuToggle a:hover {
-	color: #51c2f3;
+	color: whitesmoke;
 }
 
 #menuToggle input {
@@ -55,12 +62,12 @@
  */
 #menuToggle span {
 	display: block;
-	width: 33px;
-	height: 4px;
+	width: 27px;
+	height: 2px;
 	margin-bottom: 5px;
 	position: relative;
 
-	background: #152e92ad;
+	background: #fff;
 	border-radius: 3px;
 
 	z-index: 1;
@@ -86,7 +93,7 @@
 #menuToggle input:checked ~ span {
 	opacity: 1;
 	transform: rotate(45deg) translate(-2px, -1px);
-	background: #152e92ad;
+	background: #fff;
 }
 
 /*
@@ -116,7 +123,7 @@
 	padding: 50px;
 	padding-top: 125px;
 
-	background: white;
+	background: url('../../assets/nav/mobile-bg.png'), rgba($color: #fff, $alpha: 0.85);
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
@@ -162,7 +169,7 @@
 }
 
 .nav__links--link-dropdown-mobile {
-	color: #152e92 !important;
+	color: #fff !important;
 	font-weight: 600;
 	margin: 10px 0;
 }

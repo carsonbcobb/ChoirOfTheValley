@@ -16,8 +16,8 @@ const Events = () => (
 			<div className='events-header'>
 				<div className='events-header__text'>
 					<h1>
-						Keep up with our Performances
-						<br /> on Youtube!
+						Keep up with our<br />Performances<br />
+						 on Youtube!
 					</h1>
 					<div className='events_button'>
 						<a

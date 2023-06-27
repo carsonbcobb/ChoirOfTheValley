@@ -61,7 +61,7 @@ export default class SimpleSlider extends Component {
 						<Slider {...settings}>
 							<div className='slider__container--slide shrink'>
 								<img className='slide--image' src={testimonialOne} />
-								<h4 className='slide--name'>Michelle Coyle</h4>
+								<h4 className='slide--name'>Michelle C.</h4>
 								<p className='slide--text'>
 									“I cannot express how much the Clovis Community Choir means to
 									me. To say that it changed my life is an understatement for so
@@ -75,7 +75,7 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide center'>
 								<img className='slide--image' src={testimonialTwo} />
-								<h4 className='slide--name'>Jennifer Hanson</h4>
+								<h4 className='slide--name'>Jennifer H.</h4>
 								<p className='slide--text'>
 									“I've been in Clovis Community Choir for about 6 years and
 									have enjoyed it so very much! The choir is for people who love
@@ -90,7 +90,7 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide shrink'>
 								<img className='slide--image' src={testimonialThree} />
-								<h4 className='slide--name'>Bruce Witmer</h4>
+								<h4 className='slide--name'>Bruce W.</h4>
 								<p className='slide--text'>
 									“The choir has been a joy. Ed makes the work challenging at
 									times, but always fun. The music selected is joyful and even a
@@ -104,7 +104,7 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide  shrink'>
 								<img className='slide--image' src={testimonialSix} />
-								<h4 className='slide--name'>Ron Collins</h4>
+								<h4 className='slide--name'>Ron C.</h4>
 								<p className='slide--text'>
 									“Singing in the Clovis Community Choir has been a blessing of
 									an experience for me over the years. The music selection is
@@ -119,7 +119,7 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide  center'>
 								<img className='slide--image' src={testimonialFour} />
-								<h4 className='slide--name'>Dixie Meyer</h4>
+								<h4 className='slide--name'>Dixie M.</h4>
 								<p className='slide--text'>
 									“Clovis Community Choir provides opportunities for all singers
 									to share their talent and meet like people who enjoy music and
@@ -136,7 +136,7 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide shrink'>
 								<img className='slide--image' src={testimonialFive} />
-								<h4 className='slide--name'>Linda Dillman</h4>
+								<h4 className='slide--name'>Linda D.</h4>
 								<p className='slide--text'>
 									“Joining Clovis Community Choir means singing great songs
 									together with wonderful people. The music is pure joy, so get

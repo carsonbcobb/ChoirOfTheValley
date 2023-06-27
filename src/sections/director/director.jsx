@@ -22,10 +22,7 @@ const Director = () => {
 					</div>
 				</div>
 
-				<div className='about-section__subhead'>
-					<h2>OUR DIRECTOR</h2>
-					<img src={subhead} />
-				</div>
+				
 
 				<div className='about-section__content'>
 					<div className='about-section__content__image'>
@@ -36,10 +33,9 @@ const Director = () => {
 						<h2>Ed Cobb</h2>
 						<img src={underTitle} />
 						<p>
-							After having been approached by the Clovis Community Education
-							office with the idea of starting a new community chorus, Ed Cobb
-							said “Sure! Let’s put on a Patriotic Concert, and see how it
-							goes.” He made some calls, sent a few notes and anxiously awaited
+							After having the idea of starting a new community chorus, Ed Cobb
+							said “Let’s put on a Patriotic Concert, and see how it
+							goes!” He made some calls, sent a few notes and anxiously awaited
 							the first rehearsal. Nearly 50 singers showed up that first night
 							and since then, Ed’s leadership has encouraged an environment that
 							currently enriches the lives of just under 100 singers with a wide

@@ -2,7 +2,7 @@ import React, { useState, useToggle } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
-import logo from '../../assets/home/nav-logo.png';
+import logo from '../../assets/home/footer-logo.png';
 import treble from '../../assets/nav/button.png';
 
 import './mobileNav.styles.scss';
@@ -12,9 +12,9 @@ const MobileNav = () => {
 
 	return (
 		<nav role='navigation' id='mobile-nav'>
-			<div className='mobile-logo'>
+			<Link  to='/' className='mobile-logo'>
 				<img src={logo} />
-			</div>
+			</Link>
 			<div id='menuToggle'>
 				<input type='checkbox' />
 

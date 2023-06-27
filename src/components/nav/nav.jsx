@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import logo from '../../assets/home/nav-logo.png';
+import logo from '../../assets/home/footer-logo.png';
 
 import './nav.styles.scss';
 
@@ -10,9 +10,9 @@ const Nav = () => {
 
 	return (
 		<nav id='nav'>
-			<div class='nav__logo'>
+			<Link class='nav__logo' to='/'>
 				<img src={logo} />
-			</div>
+			</Link>
 			<div class='nav__links'>
 				<Link to='/' class='nav__links--link'>
 					Home

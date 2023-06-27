@@ -109,7 +109,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {	
 	.about-section__header {
 		padding-top: 50px;
 		h1 {
@@ -117,8 +117,7 @@
 		}
 
 		img {
-			display: none;
-		}
+		width: 100px;		}
 	}
 
 	.about-section__content {

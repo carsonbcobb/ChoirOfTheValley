@@ -23,10 +23,7 @@ const About = () => {
 					</div>
 				</div>
 
-				<div className='about-section__subhead'>
-					<h2>WHO WE ARE? </h2>
-					<img src={subhead} />
-				</div>
+			
 
 				<div className='about-section__content'>
 					<div className='about-section__content__image'>

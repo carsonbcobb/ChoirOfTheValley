@@ -11,7 +11,7 @@ const Footer = () => (
 		<div className='footer__content'>
 			<img src={footerLogo} />
 			<p>Cloviscommunitychoir@gmail.com</p>
-			<p>559-327-2800</p>
+			<p>559-916-8541</p>
 
 			<div className='footer__social'>
 				<a
@@ -29,7 +29,7 @@ const Footer = () => (
 			</div>
 
 			<a href='#' className='copyright'>
-				Carson Cobb &#169; 2021
+				Carson Cobb &#169; 2022
 			</a>
 		</div>
 	</div>
