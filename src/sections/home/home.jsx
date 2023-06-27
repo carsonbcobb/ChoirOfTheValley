@@ -28,7 +28,7 @@ const Home = () => {
 					<div class='hero'>
 						<div class='hero__text'>
 							<h1 class='hero__text--title'>
-								Clovis <br /> <span class='darkblue'> Community Choir </span>
+								Community Choir <br /> <span class='darkblue'> of the Valley</span>
 							</h1>
 							<div className='hero__image--mobile'>
 								<img src={hero} />
@@ -172,7 +172,7 @@ const Home = () => {
 					<div className='footer__content'>
 						<img src={footerLogo} />
 
-						<p>Cloviscommunitychoir@gmail.com</p>
+						<p>info@choirofthevalley.com</p>
 						<p>559-916-8541</p>
 
 						<div className='footer__social'>

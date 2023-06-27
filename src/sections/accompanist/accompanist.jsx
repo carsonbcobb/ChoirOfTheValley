@@ -33,8 +33,7 @@ const Accompanist = () => {
 						<h2>Randy Berger</h2>
 						<img src={underTitle} />
 						<p>
-							Randy Berger is pleased to be the piano accompanist for the Clovis
-							Community Choir since its inception. Along with the opportunity to
+							Randy Berger is pleased to be the piano accompanist for the Community Choir of the Valley since its inception. Along with the opportunity to
 							work with Director Ed Cobb, Randy really enjoys playing for such a
 							large group and adding the right musical nuances to each song that
 							is rehearsed and performed.
