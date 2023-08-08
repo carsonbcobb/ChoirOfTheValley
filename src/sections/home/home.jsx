@@ -42,9 +42,10 @@ const Home = () => {
 							</p>
 
 							<div className='hero-button'>
-								<Link className='button' to='/contact'>
-									Join Now
-								</Link>
+								<a className='button' href='https://docs.google.com/forms/d/e/1FAIpQLScxKELToh9-epCwKRMFws7SqwYkdxnf2BrTdGbopsFFlssYzw/viewform?usp=sf_link'
+							target='_blank'>
+									Sign Up
+								</a>
 							</div>
 						</div>
 
@@ -53,6 +54,29 @@ const Home = () => {
 						</div>
 					</div>
 				</section>
+			</div>
+
+			<div id="upcoming">
+				<h2>Upcoming Events</h2>
+
+				<div class="upcoming-events--list">
+					<div class="event">
+						<h3>Thursday, August 24th</h3>
+						<h4>Rehearsals begin: 6-8pm</h4>
+						<h4>Northpark Community Church<br/>
+2297 E Shepherd Ave (between Maple & Chestnut) </h4>
+					</div>
+					<div class="event">
+						<h3>Sunday, October 22</h3>
+						<h4>Sacred Songs Concert @ 3pm</h4>
+						<h4>Holy Spirit Catholic Church (Friant & Champlain)</h4>
+					</div>
+					<div class="event">
+						<h3>Sunday, December 17</h3>
+						<h4>Songs of the Season Concert</h4>
+						<h4>Clovis Veterans Memorial District (808 4th St, Clovis)</h4>
+					</div>
+				</div>
 			</div>
 
 			<section id='about'>
