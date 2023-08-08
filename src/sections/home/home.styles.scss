@@ -173,6 +173,41 @@
 	}
 }
 
+//Upcoming Events
+#upcoming {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event h3 {
+	font-size: 28px;
+    color: #696969;
+}
+
+
+.upcoming-events--list {
+	display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+		width: 100%;
+}
+
+@media (max-width: 768px){
+	.upcoming-events--list {
+		display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-evenly;
+			width: 75%;
+	}
+
+	#upcoming .blue {
+		font-size: 32px;
+	}
+}
+
 //About
 
 .about {

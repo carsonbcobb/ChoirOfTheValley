@@ -57,24 +57,24 @@ const Home = () => {
 			</div>
 
 			<div id="upcoming">
-				<h2>Upcoming Events</h2>
+				<h2 class="blue">Upcoming Events</h2>
 
 				<div class="upcoming-events--list">
 					<div class="event">
 						<h3>Thursday, August 24th</h3>
 						<h4>Rehearsals begin: 6-8pm</h4>
 						<h4>Northpark Community Church<br/>
-2297 E Shepherd Ave (between Maple & Chestnut) </h4>
+2297 E Shepherd Ave <br/>(between Maple & Chestnut) </h4>
 					</div>
 					<div class="event">
 						<h3>Sunday, October 22</h3>
 						<h4>Sacred Songs Concert @ 3pm</h4>
-						<h4>Holy Spirit Catholic Church (Friant & Champlain)</h4>
+						<h4>Holy Spirit Catholic Church <br/>(Friant & Champlain)</h4>
 					</div>
 					<div class="event">
 						<h3>Sunday, December 17</h3>
 						<h4>Songs of the Season Concert</h4>
-						<h4>Clovis Veterans Memorial District (808 4th St, Clovis)</h4>
+						<h4>Clovis Veterans Memorial District <br/>(808 4th St, Clovis)</h4>
 					</div>
 				</div>
 			</div>
