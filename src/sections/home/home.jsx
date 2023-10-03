@@ -18,7 +18,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import sacredSongs from '../../assets/home/sacredSongs.jpeg'
+import sacredSongs from '../../assets/home/sacredSongs.png'
 
 const Home = () => {
 	const [video, videoClicked] = useState('');
