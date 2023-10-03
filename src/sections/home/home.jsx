@@ -18,6 +18,8 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
+import sacredSongs from '../../assets/home/sacredSongs.jpeg'
+
 const Home = () => {
 	const [video, videoClicked] = useState('');
 	return (
@@ -42,9 +44,9 @@ const Home = () => {
 							</p>
 
 							<div className='hero-button'>
-								<a className='button' href='https://docs.google.com/forms/d/e/1FAIpQLScxKELToh9-epCwKRMFws7SqwYkdxnf2BrTdGbopsFFlssYzw/viewform?usp=sf_link'
+								<a className='button' href='https://forms.gle/bHt2mGi4SsxVcwdQ9'
 							target='_blank'>
-									Sign Up
+									Stay Updated
 								</a>
 							</div>
 						</div>
@@ -58,6 +60,10 @@ const Home = () => {
 
 			<div id="upcoming">
 				<h2 class="blue">Upcoming Events</h2>
+
+				<h3>Please join us our our annual Sacred Songs concert! Selections include inspirational hymn arrangements, a piece from Ola Gielo’s Sunrise Mass, Ahavat Olam (made famous by The Platt Brothers) and other songs of encouragement and inspiration. Performed in the beautiful, and acoustically breathtaking Holy Spirit Catholic Church, all seats are free and the doors will open at 2:30. You won’t want to miss it!</h3>
+				
+				<img src={sacredSongs} style="max-width: 400px;" />
 
 				<div class="upcoming-events--list">
 					<div class="event">

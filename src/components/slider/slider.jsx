@@ -6,7 +6,7 @@ import testimonialTwo from '../../assets/home/jennifer.png';
 import testimonialThree from '../../assets/home/bruce.png';
 import testimonialFour from '../../assets/home/dixie.png';
 import testimonialFive from '../../assets/home/linda.png';
-import testimonialSix from '../../assets/home/ron.png';
+import testimonialSix from '../../assets/home/celiaJason.JPEG';
 
 export default class SimpleSlider extends Component {
 	render() {
@@ -104,16 +104,9 @@ export default class SimpleSlider extends Component {
 
 							<div className='slider__container--slide  shrink'>
 								<img className='slide--image' src={testimonialSix} />
-								<h4 className='slide--name'>Ron C.</h4>
+								<h4 className='slide--name'>Celia and Jason</h4>
 								<p className='slide--text'>
-									“Singing in the Community Choir of the Valley has been a blessing of
-									an experience for me over the years. The music selection is
-									challenging, fun, and encouraging. The variety of songs
-									relating to the season they are sung makes it exciting and
-									new. Cannot forget to mention the members of the choir. They
-									are humble, engaging, and driven to make it exactly what it
-									is, a Community of people coming together to share their
-									talents and enjoy music.”
+									“My husband and I are truly grateful for the wonderful experiences we've had with our choir. The music, the friendships, and the shared moments of harmony have enriched our lives in countless ways. The conductor's guidance and the camaraderie of fellow choir members make each rehearsal and performance a joyous occasion. Our choir has become a treasured part of our journey together.”
 								</p>
 							</div>
 
