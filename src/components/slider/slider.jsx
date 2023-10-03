@@ -6,7 +6,7 @@ import testimonialTwo from '../../assets/home/jennifer.png';
 import testimonialThree from '../../assets/home/bruce.png';
 import testimonialFour from '../../assets/home/dixie.png';
 import testimonialFive from '../../assets/home/linda.png';
-import testimonialSix from '../../assets/home/celiaJason.JPEG';
+import testimonialSix from '../../assets/home/celiaJason.png';
 
 export default class SimpleSlider extends Component {
 	render() {

@@ -49,7 +49,6 @@
 }
 
 .button {
-	padding: 15px;
 	text-decoration: none;
 	color: white;
 	font-weight: 500;
@@ -710,5 +709,24 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 	margin-right: 25px;
 	img {
 		margin: 0 15px;
+	}
+}
+
+
+.upcoming-poster {
+	max-width: 300px;
+}
+
+.upcoming-title {
+	text-align: center;
+	padding: 20px 120px;
+	font-size: 1.5rem;
+}
+
+@media (max-width: 768px){
+	.upcoming-title {
+		padding: 20px;
+		font-size: 1.25rem;
+		text-align: left;
 	}
 }
