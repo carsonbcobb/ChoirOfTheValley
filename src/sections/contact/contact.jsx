@@ -56,7 +56,7 @@ const Contact = () => (
 					<br />
 					<div className='contact-button'>
 						<a
-							href='https://docs.google.com/forms/d/e/1FAIpQLScxKELToh9-epCwKRMFws7SqwYkdxnf2BrTdGbopsFFlssYzw/viewform?usp=sf_link'
+							href='https://choirofthevalley.choirgenius.com/content/membership-application'
 							target='_blank'
 						>
 							Sign Up
