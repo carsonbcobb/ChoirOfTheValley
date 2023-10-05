@@ -44,9 +44,9 @@ const Home = () => {
 							</p>
 
 							<div className='hero-button'>
-								<a className='button' href='https://forms.gle/bHt2mGi4SsxVcwdQ9'
+								<a className='button' href='https://choirofthevalley.choirgenius.com/content/membership-application'
 							target='_blank'>
-									Stay Updated
+									Sign Up
 								</a>
 							</div>
 						</div>
