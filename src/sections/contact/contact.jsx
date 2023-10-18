@@ -127,7 +127,7 @@ const Contact = () => (
 					<br />
 
 					<div className='contact-button'>
-						<a href='mailto:info@choirofthevalley.com' target='_blank'>
+						<a href='mailto:choirofthevalley@gmail.com' target='_blank'>
 							Email Us
 						</a>
 					</div>

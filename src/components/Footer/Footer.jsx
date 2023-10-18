@@ -10,7 +10,7 @@ const Footer = () => (
 	<div className='footer'>
 		<div className='footer__content'>
 			<img src={footerLogo} />
-			<p>info@choirofthevalley.com</p>
+			<p>choirofthevalley@gmail.com</p>
 			<p>559-916-8541</p>
 
 			<div className='footer__social'>
