@@ -18,7 +18,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import sacredSongs from '../../assets/home/sacredSongs.png'
+import upcomingPoster from '../../assets/home/xmasconcert.png'
 
 const Home = () => {
 	const [video, videoClicked] = useState('');
@@ -63,9 +63,10 @@ const Home = () => {
 
 				
 				
-				<img src={ sacredSongs } class="upcoming-poster" />
+				<img src={ upcomingPoster } class="upcoming-poster" />
 				
-				<h3 class="upcoming-title">Please join us our our annual Sacred Songs concert! Selections include inspirational hymn arrangements, a piece from Ola Gielo’s Sunrise Mass, Ahavat Olam (made famous by The Platt Brothers) and other songs of encouragement and inspiration. Performed in the beautiful, and acoustically breathtaking Holy Spirit Catholic Church, all seats are free and the doors will open at 2:30. You won’t want to miss it!</h3>
+				<h3 class="upcoming-title">Join us for our annual holiday concert featuring the 130-voice Community Choir of the Valley and instrumentalists performing traditional seasonal favorites for the whole family! Featuring soloist Bob Bergthold and the Choirs of Carden School of Fresno, we’ll be performing in the Clovis Veterans Memorial District Liberty Ballroom in what has become a holiday must-attend concert for Valley residents! We’ll begin at 3pm…Admission is free and the doors open at 2:30!
+</h3>
 
 				<div class="upcoming-events--list">
 					<div class="event">
