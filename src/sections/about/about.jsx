@@ -37,7 +37,7 @@ const About = () => {
 						</h2>
 						<img src={underTitle} />
 						<p>
-							A membership of 90 plus voices, diverse experience levels and one
+							A membership of 130 plus voices, diverse experience levels and one
 							love for music and the community. Community Choir of the Valley, is a
 							non-auditioned choral group established in 2014 in Clovis
 							California. Our singers range from those who are highly skilled to

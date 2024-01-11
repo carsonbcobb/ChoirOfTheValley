@@ -52,7 +52,7 @@ const History = () => {
 							Memorial Building Auditorium…to a standing room only crowd!
 						</p>
 						<p>
-							Since then, the Choir has grown, numerically-- with over 90 voices
+							Since then, the Choir has grown, numerically-- with over 130 voices
 							and musically. The desire has always been to present a varied
 							program of music for our audiences. Our concerts range from the
 							annual Patriotic Concert, to seasonal concerts, and pop-like

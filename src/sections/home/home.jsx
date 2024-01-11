@@ -70,20 +70,19 @@ const Home = () => {
 
 				<div class="upcoming-events--list">
 					<div class="event">
-						<h3>Thursday, August 24th</h3>
-						<h4>Rehearsals begin: 6-8pm</h4>
-						<h4>Northpark Community Church<br/>
-2297 E Shepherd Ave <br/>(between Maple & Chestnut) </h4>
+						<h3>February 1st</h3>
+						<h4>Rehearsals begin! Join us at our new rehearsal location:</h4>
+						<h4>Clovis Senior Activity Center<br/>
+						735 3rd St, Clovis <br/>6-8pm (each Thursday)</h4>
 					</div>
 					<div class="event">
-						<h3>Sunday, October 22</h3>
-						<h4>Sacred Songs Concert @ 3pm</h4>
-						<h4>Holy Spirit Catholic Church <br/>(Friant & Champlain)</h4>
+						<h3>April 14th, 2:30pm</h3>
+						<h4>Spring Concert! The Greatest Shows on Earth: Songs of Broadway, Television and Silver Screen</h4>
+						<h4>Historic Warnors Theater 1400 Fulton St<br/>Downtown Fresno</h4>
 					</div>
 					<div class="event">
-						<h3>Sunday, December 17</h3>
-						<h4>Songs of the Season Concert</h4>
-						<h4>Clovis Veterans Memorial District <br/>(808 4th St, Clovis)</h4>
+						<h3>June 28th</h3>
+						<h4>Annual Patriotic Concert!</h4>
 					</div>
 				</div>
 			</div>
@@ -106,7 +105,7 @@ const Home = () => {
 					
 						
 							<p>
-								A membership of 90 plus voices, diverse experience levels and
+								A membership of 130 plus voices, diverse experience levels and
 								one love for music and the community. Community Choir of the Valley, is
 								a non-auditioned choral group established in 2014 in Clovis
 								California. Our singers range from those who are highly skilled
@@ -156,7 +155,7 @@ const Home = () => {
 							<h3>
 								Watch our Virtual Choir
 								<br />
-								Performance!
+								Performance from 2020!
 							</h3>
 							<div className='connect__social'>
 								<a
@@ -186,12 +185,12 @@ const Home = () => {
 					<div className='join__text'>
 						<img src={quoteStart} className='quote-start' />
 						<p className="desktop-text">
-							Join over 90 others who’ve discovered the joy of
+							Join over 130 others who’ve discovered the joy of
 							<br />
 							singing together!
 						</p>
 						<p className="mobile-text">
-							Join over 90 others who’ve discovered the joy of singing together!
+							Join over 130 others who’ve discovered the joy of singing together!
 						</p>
 						<img className='quote-end' src={quoteEnd} />
 					</div>
