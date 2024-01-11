@@ -71,7 +71,7 @@ const Home = () => {
 				<div class="upcoming-events--list">
 					<div class="event">
 						<h3>February 1st</h3>
-						<h4>Rehearsals begin! Join us at our new rehearsal location:</h4>
+						<h4>Rehearsals begin!<br/>Join us at our new rehearsal location:</h4>
 						<h4>Clovis Senior Activity Center<br/>
 						735 3rd St, Clovis <br/>6-8pm (each Thursday)</h4>
 					</div>
