@@ -184,8 +184,10 @@
     color: #696969;
 }
 
-.event {
-	max-width: 30%;
+@media (min-width: 768px){
+	.event {
+		max-width: 30%;
+	}
 }
 
 
