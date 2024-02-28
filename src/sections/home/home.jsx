@@ -18,8 +18,8 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/showposter.jpeg'
-import upcomingPosterSub from '../../assets/home/parkingmap.jpeg'
+import upcomingPoster from '../../assets/home/showposter.png'
+import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 
 const Home = () => {
