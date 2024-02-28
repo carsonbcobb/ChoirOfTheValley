@@ -18,7 +18,9 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/xmasconcert.png'
+import upcomingPoster from '../../assets/home/showposter.jpeg'
+import upcomingPosterSub from '../../assets/home/parkingmap.jpeg'
+
 
 const Home = () => {
 	const [video, videoClicked] = useState('');
@@ -64,17 +66,16 @@ const Home = () => {
 				
 				
 				<img src={ upcomingPoster } class="upcoming-poster" />
+
+				<p>Warnors Theater Parking Map (free and secure)</p>
+				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub" />
+
 				
 				<h3 class="upcoming-title">Join us for our annual holiday concert featuring the 130-voice Community Choir of the Valley and instrumentalists performing traditional seasonal favorites for the whole family! Featuring soloist Bob Bergthold and the Choirs of Carden School of Fresno, we’ll be performing in the Clovis Veterans Memorial District Liberty Ballroom in what has become a holiday must-attend concert for Valley residents! We’ll begin at 3pm…Admission is free and the doors open at 2:30!
 </h3>
 
 				<div class="upcoming-events--list">
-					<div class="event">
-						<h3>February 1st</h3>
-						<h4>Rehearsals begin!<br/>Join us at our new rehearsal location:</h4>
-						<h4>Clovis Senior Activity Center<br/>
-						735 3rd St, Clovis <br/>6-8pm (each Thursday)</h4>
-					</div>
+			
 					<div class="event">
 						<h3>April 14th, 2:30pm</h3>
 						<h4>Spring Concert! The Greatest Shows on Earth: Songs of Broadway, Television and Silver Screen</h4>
