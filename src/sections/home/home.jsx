@@ -18,7 +18,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/showposter.png'
+import upcomingPoster from '../../assets/home/show-poster.jpeg'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 
@@ -67,7 +67,6 @@ const Home = () => {
 				
 				<img src={ upcomingPoster } class="upcoming-poster" />
 
-				<p>Warnors Theater Parking Map (free and secure)</p>
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub" />
 
 				
