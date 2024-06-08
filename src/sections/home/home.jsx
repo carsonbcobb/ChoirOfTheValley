@@ -18,7 +18,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/show-poster.png'
+import upcomingPoster from '../../assets/home/banner11.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 
