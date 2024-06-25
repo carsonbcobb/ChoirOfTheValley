@@ -46,7 +46,10 @@ const Home = () => {
 								music. We also strive to present enriching and inspiring concerts
 								for all ages in the great Clovis / Fresno community
 							</p>
-							<StripeBuyButton />
+							<StripeBuyButton
+								buttonId="buy_btn_1OC2g4LG4c3xViTKKIBGttb9"
+        				publishableKey="pk_live_51NuNHxLG4c3xViTKB0JJ69ih5GODrfYiX4yqtIKnFYlT8ZBTCLrRQYsgRWz1u4ModqV2ippvhRSK8xL0jRSnE6nO00QoeCINUc"
+     					/>
 							<div className='hero-button'>
 								
 								
