@@ -46,10 +46,10 @@ const Home = () => {
 								music. We also strive to present enriching and inspiring concerts
 								for all ages in the great Clovis / Fresno community
 							</p>
-
+							<StripeBuyButton />
 							<div className='hero-button'>
-								<StripeBuyButton />
-								<span>OR</span>
+								
+								
 								<a className='button' href='https://choirofthevalley.choirgenius.com/content/membership-application'
 							target='_blank'>
 									Sign Up
