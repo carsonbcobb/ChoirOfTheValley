@@ -21,6 +21,8 @@ import SelectNav from '../../components/selectNav/selectNav';
 import upcomingPoster from '../../assets/home/banner11.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
+import StripeBuyButton from '../../components/donate/donate.jsx'
+
 
 const Home = () => {
 	const [video, videoClicked] = useState('');
@@ -46,6 +48,8 @@ const Home = () => {
 							</p>
 
 							<div className='hero-button'>
+								<StripeBuyButton />
+								<span>OR</span>
 								<a className='button' href='https://choirofthevalley.choirgenius.com/content/membership-application'
 							target='_blank'>
 									Sign Up
