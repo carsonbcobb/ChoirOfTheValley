@@ -740,7 +740,7 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 	display: none !important;
 }
 
-#hero-container-buttons {
+.hero-container-buttons {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -748,7 +748,7 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 }
 
 @media (max-width: 768px){
-	#hero-container-buttons {
+	.hero-container-buttons {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
