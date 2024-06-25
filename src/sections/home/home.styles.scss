@@ -746,3 +746,11 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 	justify-content: space-evenly;
 	align-items: center;
 }
+
+@media (max-width: 768px){
+	#hero-container-buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
