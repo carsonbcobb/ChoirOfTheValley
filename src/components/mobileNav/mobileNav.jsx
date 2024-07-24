@@ -1,4 +1,4 @@
-import React, { useState, useToggle } from 'react';
+import React, { useState, useToggle, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
@@ -9,6 +9,25 @@ import './mobileNav.styles.scss';
 
 const MobileNav = () => {
 	const [toggle, setToggle] = useState(false);
+
+	useEffect(() => {
+		const checkbox = document.querySelector('#menuToggle input[type="checkbox"]');
+		const body = document.body;
+	
+		const toggleScroll = () => {
+		  if (checkbox.checked) {
+			body.classList.add('lock-scroll');
+		  } else {
+			body.classList.remove('lock-scroll');
+		  }
+		};
+	
+		checkbox.addEventListener('change', toggleScroll);
+	
+		return () => {
+		  checkbox.removeEventListener('change', toggleScroll);
+		};
+	  }, []);
 
 	return (
 		<nav role='navigation' id='mobile-nav'>
@@ -60,6 +79,7 @@ const MobileNav = () => {
 								>
 									Our History
 								</Link>
+								
 							</div>
 						)}
 						<Link to='/events' class='nav__links--mobile-link'>
@@ -68,7 +88,11 @@ const MobileNav = () => {
 						<Link to='/contact' class='nav__links--mobile-link'>
 							Contact
 						</Link>
+						<div className='menu-list__logo'>
+								<img src={logo} />
+								</div>
 					</div>
+					
 				</ul>
 			</div>
 		</nav>

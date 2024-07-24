@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import footerLogo from '../../assets/home/footer-logo.png';
 
-import hero from '../../assets/home/hero.png';
 import facebook from '../../assets/home/facebook.png';
 import youtube from '../../assets/home/youtube.png';
 import aboutImage from '../../assets/home/about.png';
@@ -21,53 +20,105 @@ import SelectNav from '../../components/selectNav/selectNav';
 import upcomingPoster from '../../assets/home/banner11.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
-import StripeBuyButton from '../../components/donate/donate.jsx'
+import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
+import waveSvg from '../../assets/home/wave.svg'; // Import the wave SVG
+import styled from 'styled-components';
+
+const Wave = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  background: url(${waveSvg}) no-repeat bottom center;
+  background-size: cover;
+  z-index: 1;
+  transform: rotate(180deg);
+
+  @media (min-width: 1441px) {
+    bottom: -3px;
+	width: 1440px;
+	margin: auto;
+	left:0;
+	right:0;
+  }
+
+  @media (max-width: 1440px) {
+    bottom: -3px;
+  }
+
+   @media (max-width: 1280px) {
+    bottom: -30px;
+  }
+
+  @media (max-width: 1024px) {
+    bottom: -15px;
+  }
+
+
+
+  @media (max-width: 768px) {
+    bottom: -50px;
+  }
+
+  @media (max-width: 426px) {
+    bottom: -30px;
+  }
+`;
+
+
+const WaveTwo = styled.div`
+  position: absolute;
+  bottom: -82%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(${waveSvg}) no-repeat bottom center;
+  background-size: cover;
+  z-index: 1;
+
+  @media (max-width: 1280px) {
+    bottom: -82.5%;
+  }
+
+  @media (max-width: 1024px) {
+    bottom: -82.5%;
+  }
+
+  @media (min-width: 822px) and (max-width: 935px) {
+   bottom: -79%;
+  }
+
+	@media (max-width: 822px){
+  bottom: -75%;
+  }
+
+  @media (max-width: 768px) {
+    bottom: -80%;
+  }
+
+  @media (max-width: 675px) {
+ bottom: -75% 
+  }
+
+  @media (max-width: 426px) {
+    bottom: -72.5%;
+  }
+`;
+
 
 
 const Home = () => {
 	const [video, videoClicked] = useState('');
 	return (
 		<div className='body__home'>
-			<div className='top-bg'>
+			
 				<SelectNav />
 				<section id='hero'>
-					<div class='hero'>
-						<div class='hero__text'>
-							<h1 class='hero__text--title'>
-								Community Choir <br /> <span class='darkblue'> of the Valley</span>
-							</h1>
-							<div className='hero__image--mobile'>
-								<img src={hero} />
-							</div>
-							<p className='hero__text--body'>
-								The Community Choir of the Valley is here to provide an opportunity for
-								singers of all experience levels an encouraging and welcoming
-								environment in which to sing a variety of quality choral
-								music. We also strive to present enriching and inspiring concerts
-								for all ages in the great Clovis / Fresno community
-							</p>
-							<div className='hero-container-buttons'>
-							<StripeBuyButton
-								buttonId="buy_btn_1OC2g4LG4c3xViTKKIBGttb9"
-        				publishableKey="pk_live_51NuNHxLG4c3xViTKB0JJ69ih5GODrfYiX4yqtIKnFYlT8ZBTCLrRQYsgRWz1u4ModqV2ippvhRSK8xL0jRSnE6nO00QoeCINUc"
-     					/>
-							<div className='hero-button'>
-								
-								
-								<a className='button' href='https://choirofthevalley.choirgenius.com/content/membership-application'
-							target='_blank'>
-									Sign Up
-								</a>
-							</div>
-						</div>
-						</div>
-
-						<div className='hero__image'>
-							<img src={hero} />
-						</div>
-					</div>
+				<VideoBackgroundComponent />
 				</section>
-			</div>
+				<Wave />
+			
 
 			<div id="upcoming">
 				<h2 class="blue">Upcoming Events</h2>
@@ -114,12 +165,7 @@ const Home = () => {
 					
 						
 							<p>
-								A membership of 130 plus voices, diverse experience levels and
-								one love for music and the community. Community Choir of the Valley, is
-								a non-auditioned choral group established in 2014 in Clovis
-								California. Our singers range from those who are highly skilled
-								to those who have never sung in a choir before, but we all have
-								these things in common:
+							Established in 2014 in Clovis, California, we are a non-auditioned choral group that celebrates the joy of singing and the strength of community. With over 130 members, our choir includes individuals of all experience levels, from seasoned vocalists to those who are new to choral singing. What unites us is our shared passion for music and our dedication to enriching our community through the power of song.
 							</p>
 
 							<div className='about-button'>
@@ -130,12 +176,14 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
+				<WaveTwo />
 			</section>
 
 			<section id='connect'>
+				
 				<div className='connect'>
-					<p className='connect--subtitle'>Connect</p>
-					<h2 className='connect--title'>Connect With Us</h2>
+					<p className='connect--subtitle'>Online</p>
+					<h2 className='connect--title'>Find Us Online</h2>
 
 					<div className='connect__content'>
 						<div
@@ -143,9 +191,9 @@ const Home = () => {
 							onClick={() =>
 								videoClicked(
 									<iframe
-										width='560'
-										height='415'
-										src='https://www.youtube.com/embed/Cf_dXxRe7E0?autoplay=1'
+										width='500'
+										height='300'
+										src='https://www.youtube.com/embed/HTjpNraoE90?si=ANxG4Wvwvqaoh2bK'
 										title='Community Choir of the Valley'
 										frameborder='0'
 										allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -162,9 +210,7 @@ const Home = () => {
 						<div className='connect__content--text'>
 							<img className='arrow' src={arrow} />
 							<h3>
-								Watch our Virtual Choir
-								<br />
-								Performance from 2020!
+								Watch our 2023 Spring Concert "Once Upon a Time"
 							</h3>
 							<div className='connect__social'>
 								<a
@@ -232,7 +278,7 @@ const Home = () => {
 						</div>
 
 						<a href='#' className='copyright'>
-							Carson Cobb &#169; 2021
+							Carson Cobb &#169; 2024
 						</a>
 					</div>
 				</div>
