@@ -944,3 +944,8 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 	}
 }
 
+@media (max-width: 415px) {
+	.about__content--text p {
+		padding: 0;
+	}
+}

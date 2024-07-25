@@ -66,7 +66,7 @@ const Wave = styled.div`
   }
 
     @media (max-width: 385px) {
-    bottom: -25px;
+    bottom: -35px;
   }
 `;
 
