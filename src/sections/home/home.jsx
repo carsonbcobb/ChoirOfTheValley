@@ -71,7 +71,7 @@ const Wave = styled.div`
 
   
 @media (max-width: 435px) and (min-width: 420px){
-    bottom: -50px;
+    bottom: -75px;
 }
 `;
 
