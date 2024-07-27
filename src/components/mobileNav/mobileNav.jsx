@@ -12,8 +12,9 @@ const MobileNav = () => {
 
 	useEffect(() => {
 		const checkbox = document.querySelector('#menuToggle input[type="checkbox"]');
+		const navLinks = document.querySelectorAll('.nav__links--mobile-link, .nav__links--link-dropdown-mobile');
 		const body = document.body;
-	
+	  
 		const toggleScroll = () => {
 		  if (checkbox.checked) {
 			body.classList.add('lock-scroll');
@@ -21,13 +22,25 @@ const MobileNav = () => {
 			body.classList.remove('lock-scroll');
 		  }
 		};
-	
+	  
+		const removeLockScroll = () => {
+		  body.classList.remove('lock-scroll');
+		};
+	  
 		checkbox.addEventListener('change', toggleScroll);
-	
+	  
+		navLinks.forEach(link => {
+		  link.addEventListener('click', removeLockScroll);
+		});
+	  
 		return () => {
 		  checkbox.removeEventListener('change', toggleScroll);
+		  navLinks.forEach(link => {
+			link.removeEventListener('click', removeLockScroll);
+		  });
 		};
 	  }, []);
+	  
 
 	return (
 		<nav role='navigation' id='mobile-nav'>

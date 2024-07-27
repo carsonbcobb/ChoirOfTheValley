@@ -219,8 +219,18 @@
 	
 }
 
-@media (max-width: 426px){
+@media (max-width: 435px){
 	#menu {
 		margin: -100px 0 0 -85%;
 	}
+}
+
+@media (max-width: 435px) and (min-width: 420px){
+	#menu {
+		margin: -100px 0 0 -87.5%;
+	}
+
+	#menuToggle {
+        left: 87.5%;
+    }
 }

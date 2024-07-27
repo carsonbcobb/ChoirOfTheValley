@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/banner11.png'
+import upcomingPoster from '../../assets/home/banner12.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -61,7 +61,7 @@ const Wave = styled.div`
     bottom: -50px;
   }
 
-  @media (max-width: 426px) {
+  @media (max-width: 435px) {
     bottom: -30px;
   }
 
@@ -105,7 +105,7 @@ const WaveTwo = styled.div`
  bottom: -75% 
   }
 
-  @media (max-width: 426px) {
+  @media (max-width: 435px) {
     bottom: -72.5%;
   }
 `;
