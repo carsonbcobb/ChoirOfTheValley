@@ -51,7 +51,7 @@ const HeroContent = styled.div`
 
 const VideoBackgroundComponent = () => (
   <HeroSection>
-    <VideoBackground autoPlay muted loop>
+    <VideoBackground autoPlay muted loop playsInline>
       <source src="https://choirofthevalley.s3.us-west-2.amazonaws.com/bg-video.mp4" type="video/mp4" />
       <source src="https://choirofthevalley.s3.us-west-2.amazonaws.com/bg-video.webm" type="video/webm" />
       Your browser does not support the video tag.

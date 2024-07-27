@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body, html {
+  touch-action: manipulation;
+}
