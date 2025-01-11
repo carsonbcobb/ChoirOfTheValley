@@ -1,5 +1,9 @@
 //HERO
 
+.displaynone {
+	display: none;
+}
+
 .top-bg {
 	//background-image: url('../../assets/home/hero-bg.png');
 	background-size: cover;
@@ -884,9 +888,7 @@ transform: translateY(125%);	color: rgba(36, 166, 223, 0.03);
 	}
 }
 
-.upcoming-title, .upcoming-events--list, .upcoming-poster-sub {
-	display: none !important;
-}
+
 
 .hero-container-buttons {
 	display: flex;
