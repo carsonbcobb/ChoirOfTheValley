@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/dec2024.png'
+import upcomingPoster from '../../assets/home/concert_1_2025.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -134,7 +134,7 @@ const Home = () => {
 
 				
 				
-				<img src={ upcomingPoster } class="upcoming-poster displaynone" />
+				<img src={ upcomingPoster } class="upcoming-poster" />
 
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
@@ -142,16 +142,16 @@ const Home = () => {
 				<h3 class="upcoming-title displaynone">Join us for our annual holiday concert featuring the 130-voice Community Choir of the Valley and instrumentalists performing traditional seasonal favorites for the whole family! Featuring soloist Bob Bergthold and the Choirs of Carden School of Fresno, we’ll be performing in the Clovis Veterans Memorial District Liberty Ballroom in what has become a holiday must-attend concert for Valley residents! We’ll begin at 3pm…Admission is free and the doors open at 2:30!
 </h3>
 
-				<div class="upcoming-events--list">
+				<div class="upcoming-events--list displaynone">
 			
-					<div class="event">
+					<div class="event displaynone">
 						<h3>Spring Rehearsals begin</h3>
 						<h4>Thursday, January 23, 2025</h4>
 						<h4>6-8pm @ Clovis Senior Activity Center</h4>
 						<h4>735 3rd St., Clovis</h4>
 						<h4>Join us by registering<a href='https://choirofthevalley.choirgenius.com/content/membership-application' target='_blank'>…see the link!</a></h4>
 					</div>
-					<div class="event">
+					<div class="event displaynone">
 						<h3>Forever Country: Country Hits with a Choral Twist!</h3>
 						<h4>Sunday, April 6th @ 2:30 p.m.</h4>
 						<h4>Free Admission</h4>
