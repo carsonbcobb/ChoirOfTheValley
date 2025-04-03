@@ -70,11 +70,7 @@ const VideoBackgroundComponent = () => (
             for all ages in the great Clovis / Fresno community.
           </p>
           <div className="hero-container-buttons">
-            <StripeBuyButton
-              buttonId="buy_btn_1OC2g4LG4c3xViTKKIBGttb9"
-              publishableKey="pk_live_51NuNHxLG4c3xViTKB0JJ69ih5GODrfYiX4yqtIKnFYlT8ZBTCLrRQYsgRWz1u4ModqV2ippvhRSK8xL0jRSnE6nO00QoeCINUc"
-            />
-            <div className="hero-button">
+          <div className="hero-button">
               <a
                 className="button"
                 href="https://choirofthevalley.choirgenius.com/content/membership-application"
@@ -84,6 +80,17 @@ const VideoBackgroundComponent = () => (
                 Sign Up
               </a>
             </div>
+          <div className="hero-button">
+              <a
+                className="button"
+                href="https://3b7d046a-cf5f-4779-968f-dc836a85dc0f.paylinks.godaddy.com/306b5456-24e3-472e-9f08-a5b"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Donate
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
