@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/concert_1_2025.png'
+import upcomingPoster from '../../assets/home/july_2025.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
