@@ -134,28 +134,27 @@ const Home = () => {
 
 				
 				
-				<img src={ upcomingPoster } class="upcoming-poster" />
+				<img src={ upcomingPoster } class="upcoming-poster displaynone" />
 
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title displaynone">Join us for our annual holiday concert featuring the 130-voice Community Choir of the Valley and instrumentalists performing traditional seasonal favorites for the whole family! Featuring soloist Bob Bergthold and the Choirs of Carden School of Fresno, we’ll be performing in the Clovis Veterans Memorial District Liberty Ballroom in what has become a holiday must-attend concert for Valley residents! We’ll begin at 3pm…Admission is free and the doors open at 2:30!
+				<h3 class="upcoming-title">New Season begins August 21st at 6pm.<br/>Join us at Clovis Senior Activity Center!<br/>(735 3rd St. Clovis) 
 </h3>
-
-				<div class="upcoming-events--list displaynone">
+<h3 class="upcoming-title">Concerts:</h3>
+				<div class="upcoming-events--list ">
 			
-					<div class="event displaynone">
-						<h3>Spring Rehearsals begin</h3>
-						<h4>Thursday, January 23, 2025</h4>
-						<h4>6-8pm @ Clovis Senior Activity Center</h4>
-						<h4>735 3rd St., Clovis</h4>
-						<h4>Join us by registering<a href='https://choirofthevalley.choirgenius.com/content/membership-application' target='_blank'>…see the link!</a></h4>
+					<div class="event ">
+						<h3>Sacred Songs</h3>
+						<h4>October 26, 2025 - 3pm</h4>
+						<h4>Holy Spirit Catholic Church</h4>
+						<h4>355 E Champlain Dr, Fresno, CA 93730</h4>
 					</div>
-					<div class="event displaynone">
-						<h3>Forever Country: Country Hits with a Choral Twist!</h3>
-						<h4>Sunday, April 6th @ 2:30 p.m.</h4>
-						<h4>Free Admission</h4>
-						<h4>Shaghoian Concert Hall  2770 E. International (Campus of Clovis North HS)</h4>
+					<div class="event ">
+						<h3>Songs of the Season</h3>
+						<h4>December 21 - 2:30pm</h4>
+						<h4>Shaghoian Concert Hall</h4>
+						<h4>2770 E International Ave, Fresno, CA 93730</h4>
 					</div>
 				</div>
 			</div>
