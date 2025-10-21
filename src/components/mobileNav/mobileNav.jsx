@@ -81,12 +81,6 @@ const MobileNav = () => {
 									Our Director
 								</Link>
 								<Link
-									to='/accompanist'
-									className=' nav__links--link nav__links--link-dropdown-mobile'
-								>
-									Our Accompanist
-								</Link>
-								<Link
 									to='/history'
 									className='nav__links--link nav__links--link-dropdown-mobile'
 								>

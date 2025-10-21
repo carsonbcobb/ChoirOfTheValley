@@ -6,7 +6,6 @@ import Events from './sections/events/events.jsx';
 import Contact from './sections/contact/contact';
 import About from './sections/about/about';
 import Director from './sections/director/director';
-import Accompanist from './sections/accompanist/accompanist';
 import History from './sections/history/history';
 import './App.scss';
 
@@ -17,7 +16,6 @@ function App() {
 				<Route exact path='/' component={Home} />
 				<Route exact path='/about' component={About} />
 				<Route exact path='/director' component={Director} />
-				<Route exact path='/accompanist' component={Accompanist} />
 				<Route exact path='/history' component={History} />
 				<Route exact path='/events' component={Events} />
 				<Route exact path='/contact' component={Contact} />

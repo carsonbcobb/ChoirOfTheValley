@@ -34,12 +34,6 @@ const Nav = () => {
 								Our Director
 							</Link>
 							<Link
-								to='/accompanist'
-								className=' nav__links--link nav__links--link-dropdown'
-							>
-								Our Accompanist
-							</Link>
-							<Link
 								to='/history'
 								className='nav__links--link nav__links--link-dropdown'
 							>

@@ -36,7 +36,7 @@ const Wave = styled.div`
   transform: rotate(180deg);
 
   @media (min-width: 1441px) {
-    bottom: -3px;
+    bottom: -15px;
 	width: 1440px;
 	margin: auto;
 	left:0;
@@ -44,7 +44,7 @@ const Wave = styled.div`
   }
 
   @media (max-width: 1440px) {
-    bottom: -3px;
+    bottom: -15px;
   }
 
    @media (max-width: 1280px) {
