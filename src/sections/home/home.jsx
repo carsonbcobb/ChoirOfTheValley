@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/july_2025.png'
+import upcomingPoster from '../../assets/home/concert-1225.jpeg'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -134,15 +134,15 @@ const Home = () => {
 
 				
 				
-				<img src={ upcomingPoster } class="upcoming-poster displaynone" />
+				<img src={ upcomingPoster } class="upcoming-poster" />
 
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title">New Season begins August 21st at 6pm.<br/>Join us at Clovis Senior Activity Center!<br/>(735 3rd St. Clovis) 
+				<h3 class="upcoming-title">New Season begins Thursday, January 29, 2026!<br/>
 </h3>
-<h3 class="upcoming-title">Concerts:</h3>
-				<div class="upcoming-events--list ">
+<h3 class="upcoming-title displaynone">Concerts:</h3>
+				<div class="upcoming-events--list displaynone ">
 			
 					<div class="event ">
 						<h3>Sacred Songs</h3>
