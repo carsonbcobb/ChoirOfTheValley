@@ -134,27 +134,36 @@ const Home = () => {
 
 				
 				
-				<img src={ upcomingPoster } class="upcoming-poster" />
+				<img src={ upcomingPoster } class="upcoming-poster displaynone" />
 
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title">New Season begins Thursday, January 29, 2026!<br/>
+				<h3 class="upcoming-title">New registrations are taking place for our Spring Season!<br/>Rehearsals begin Thursday, January 22nd at 6pm.
 </h3>
-<h3 class="upcoming-title displaynone">Concerts:</h3>
-				<div class="upcoming-events--list displaynone ">
+				<div className="hero-button">
+					<a
+						className="button"
+						href="https://choirofthevalley.choirgenius.com/content/membership-application"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Click Here to Register
+					</a>
+				</div>
+				<div class="upcoming-events--list ">
 			
 					<div class="event ">
-						<h3>Sacred Songs</h3>
-						<h4>October 26, 2025 - 3pm</h4>
-						<h4>Holy Spirit Catholic Church</h4>
-						<h4>355 E Champlain Dr, Fresno, CA 93730</h4>
+						<h3>Choral Karaoke...Or, Songs We Love to Sing!</h3>
+						<h4>Sunday, March 29, 2026</h4>
+						<h4>Shaghoian Concert Hall</h4>
+						<h4>2770 E. International, Fresno</h4>
 					</div>
 					<div class="event ">
-						<h3>Songs of the Season</h3>
-						<h4>December 21 - 2:30pm</h4>
-						<h4>Shaghoian Concert Hall</h4>
-						<h4>2770 E International Ave, Fresno, CA 93730</h4>
+						<h3>12th Annual Patriotic Concert</h3>
+						<h4>Friday, June 26, 2026 @ 7pm</h4>
+						<h4>Peoples Church</h4>
+						<h4>7172 N Cedar Ave, Fresno</h4>
 					</div>
 				</div>
 			</div>
