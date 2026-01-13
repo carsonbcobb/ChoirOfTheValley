@@ -155,7 +155,8 @@ const Home = () => {
 			
 					<div class="event ">
 						<h3>Choral Karaoke...Or, Songs We Love to Sing!</h3>
-						<h4>Sunday, March 29, 2026</h4>
+						<h4>Saturday, March 28 - 7:00pm</h4>
+						<h4>Sunday, March 29 - 2:30pm</h4>
 						<h4>Shaghoian Concert Hall</h4>
 						<h4>2770 E. International, Fresno</h4>
 					</div>
