@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/concert-1225.jpg'
+import upcomingPoster from '../../assets/home/karaoke.png'
 import upcomingPosterSub from '../../assets/home/parkingmap.png'
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -134,33 +134,29 @@ const Home = () => {
 
 				
 				
-				<img src={ upcomingPoster } class="upcoming-poster displaynone" />
+				<img src={ upcomingPoster } class="upcoming-poster" />
 
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title">New registrations are taking place for our Spring Season!<br/>Rehearsals begin Thursday, January 22nd at 6pm.
+				<h3 class="upcoming-title">TICKETS ARE FREE, BUT REQUIRED.
 </h3>
 				<div className="hero-button">
 					<a
 						className="button"
-						href="https://choirofthevalley.choirgenius.com/content/membership-application"
+						href="https://www.eventbrite.com/e/community-choir-of-the-valley-presents-choral-karaoke-tickets-1980595791328?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=&utm-share-source=mobile-search-results"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Click Here to Register
+						GET TICKETS HERE
 					</a>
 				</div>
+				
 				<div class="upcoming-events--list ">
-			
+
 					<div class="event ">
-						<h3>Choral Karaoke...Or, Songs We Love to Sing!</h3>
-						<h4>Saturday, March 28 - 7:00pm</h4>
-						<h4>Sunday, March 29 - 2:30pm</h4>
-						<h4>Shaghoian Concert Hall</h4>
-						<h4>2770 E. International, Fresno</h4>
-					</div>
-					<div class="event ">
+					<h3 style={{'text-align': 'center'}}>More Events:
+					</h3>
 						<h3>12th Annual Patriotic Concert</h3>
 						<h4>Friday, June 26, 2026 @ 7pm</h4>
 						<h4>Peoples Church</h4>
