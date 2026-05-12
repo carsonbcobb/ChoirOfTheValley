@@ -17,8 +17,8 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/karaoke.png'
-import upcomingPosterSub from '../../assets/home/parkingmap.png'
+import upcomingPoster from '../../assets/home/CCV Patriotic Flyer 2026 (1).jpg';
+import upcomingPosterSub from '../../assets/home/parkingmap.png';
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
 import waveSvg from '../../assets/home/wave.svg'; // Import the wave SVG
@@ -144,7 +144,7 @@ const Home = () => {
 				<div className="hero-button">
 					<a
 						className="button"
-						href="https://www.eventbrite.com/e/community-choir-of-the-valley-presents-choral-karaoke-tickets-1980595791328?aff=ebdsshcopyurl&utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=&utm-share-source=mobile-search-results"
+						href="https://www.eventbrite.com/e/community-choir-of-the-valleys-12th-annual-patriotic-concert-tickets-1988740117226?aff=oddtdtcreator&keep_tld=true"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -152,7 +152,7 @@ const Home = () => {
 					</a>
 				</div>
 				
-				<div class="upcoming-events--list ">
+				<div class="upcoming-events--list displaynone">
 
 					<div class="event ">
 					<h3 style={{'text-align': 'center'}}>More Events:
