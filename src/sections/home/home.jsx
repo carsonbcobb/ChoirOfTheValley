@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/CCV Patriotic Flyer 2026 (1).jpg';
+import upcomingPoster from '../../assets/home/summer-text-flyer.jpeg';
 import upcomingPosterSub from '../../assets/home/parkingmap.png';
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -139,9 +139,9 @@ const Home = () => {
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title">TICKETS ARE FREE, BUT REQUIRED.
+				<h3 class="upcoming-title displaynone">TICKETS ARE FREE, BUT REQUIRED.
 </h3>
-				<div className="hero-button">
+				<div className="hero-button displaynone">
 					<a
 						className="button"
 						href="https://www.eventbrite.com/e/community-choir-of-the-valleys-12th-annual-patriotic-concert-tickets-1988740117226?aff=oddtdtcreator&keep_tld=true"

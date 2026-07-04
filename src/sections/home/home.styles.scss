@@ -781,7 +781,14 @@
 }
 
 .upcoming-poster {
-    max-width: 300px;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .upcoming-poster {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 .upcoming-title {
