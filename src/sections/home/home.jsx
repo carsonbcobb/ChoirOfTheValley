@@ -17,7 +17,7 @@ import notes from '../../assets/home/notes.png';
 import SimpleSlider from '../../components/slider/slider.jsx';
 import SelectNav from '../../components/selectNav/selectNav';
 
-import upcomingPoster from '../../assets/home/summer-text-flyer.png';
+import upcomingPoster from '../../assets/home/46611.png';
 import upcomingPosterSub from '../../assets/home/parkingmap.png';
 
 import VideoBackgroundComponent from '../../components/backgroundVideo/BackgroundVideo.jsx';
@@ -139,8 +139,9 @@ const Home = () => {
 				<img src={ upcomingPosterSub } class="upcoming-poster upcoming-poster-sub displaynone" />
 
 				
-				<h3 class="upcoming-title displaynone">TICKETS ARE FREE, BUT REQUIRED.
-</h3>
+				<p class="upcoming-title">
+					Because many of you have asked when tickets would be available for the October 18th Sacred Songs concert (at Holy Spirit Catholic Church) we wanted to let you know TICKETS WILL NOT BE NECESSARY! But, free tickets will be necessary for our Songs of the Season concerts Dec 19/20 at Shaghoian Concert Hall. Watch for updates regarding their release! See you on October 18th at 3pm. 🎶
+				</p>
 				<div className="hero-button displaynone">
 					<a
 						className="button"
